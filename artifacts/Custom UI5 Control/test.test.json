@@ -1,0 +1,27 @@
+{
+	"id": "6d093401-be23-412a-94e9-89d8469a95b2",
+	"createdAt": "2026-10-09T08:54:53.025Z",
+	"createdBy": "neptune_auto_write",
+	"name": "test.test",
+	"description": "Test only",
+	"icon": null,
+	"extended": "sap.m.Button",
+	"definition": [
+		"==OBJECT STRING==",
+		"sap.m.Button.extend(\"test.test\", {",
+		"",
+		"    metadata: {",
+		"        properties: {},",
+		"        events: {}",
+		"    },",
+		"",
+		"    renderer: function(oRm: sap.ui.core.RenderManager, oControl: sap.m.Button & { [key: string]: any }) {",
+		"        // @ts-ignore",
+		"        sap.m.ButtonRenderer.render(oRm, oControl);",
+		"    }",
+		"    ",
+		"});"
+	],
+	"package": "0f9769ba-41bb-f011-8e61-000d3aba8c1d",
+	"apps": []
+}

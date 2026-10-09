@@ -8,7 +8,7 @@
 	},
 	"name": "cinightly-test-repo",
 	"description": null,
-	"ver": "25.11.06.2013",
+	"ver": "26.10.09.0856",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -50,11 +50,22 @@
 	"wf_taskaction": [],
 	"theme_ui5": [],
 	"webapp": [],
-	"ui5_control": [],
+	"ui5_control": [
+		{
+			"id": "6d093401-be23-412a-94e9-89d8469a95b2",
+			"name": "test.test",
+			"description": "Test only"
+		}
+	],
 	"ai_agent": [],
 	"ai_model": [],
 	"ai_prompt": [],
 	"ai_tool": [],
 	"ai_guardrail": [],
-	"path_rewrite": []
+	"sap_data_source": [],
+	"path_rewrite": [],
+	"font": [],
+	"vault": [],
+	"workflow": [],
+	"workflow_logs": []
 }
